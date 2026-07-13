@@ -19,7 +19,7 @@ source(here("R", "utils.R"))
 generer_rapport_html <- function(qaqc,
                                  base        = NULL,
                                  meta        = NULL,
-                                 chemin_rmd = here("pipeline", "R", "qaqc_report.Rmd"),
+                                 chemin_rmd = here("R", "qaqc_report.Rmd"),
                                  dossier_qaqc = PATHS$qaqc,
                                  verbose = TRUE) {
 
