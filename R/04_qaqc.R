@@ -8,8 +8,8 @@ library(tidyr)
 library(purrr)
 library(here)
 
-source(here("pipeline", "R", "config.R"))
-source(here("pipeline", "R", "utils.R"))
+source(here("R", "config.R"))
+source(here("R", "utils.R"))
 
 # ==============================================================================
 # FONCTION: generer_rapport_html
