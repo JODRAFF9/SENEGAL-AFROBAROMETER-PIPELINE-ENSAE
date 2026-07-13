@@ -25,22 +25,19 @@ L'objectif est d'extraire, nettoyer et consolider les données brutes en **deux 
 ```
 SEN-AFROBAROMETER-PIPELINE-ENSAE/
 │
-├── pipeline/
-│   ├── main.R                  ← Point d'entrée unique du pipeline
-│   ├── input/                  ← Déposer la base brute ici (base.dta)
-│   ├── output/                 ← Tables consolidées et rapport QAQC générés
-│   └── R/
-│       ├── config.R            ← Mapping variables, ISIC Rev 4, seuils QAQC
-│       ├── 01_import.R         ← Import, nettoyage, détection outliers
-│       ├── 02_individus.R      ← Table individus consolidée
-│       ├── 03_menages.R        ← Table ménages consolidée
-│       ├── 04_qaqc.R           ← Contrôle qualité + estimations primaires
-│       ├── 05_export.R         ← Export CSV / Excel / HTML
-│       └── qaqc_report.Rmd     ← Template rapport QAQC HTML
-│
-├── Section7.10/                ← Traitement section conditions de vie
-├── Section71.81B/              ← Traitement sections médias & influence étrangère
-└── Description_et_litige_foncier_et_la_corruption/
+├
+├── main.R                  ← Point d'entrée unique du pipeline
+├── input/                  ← Déposer la base brute ici (base.dta)
+├── output/                 ← Tables consolidées et rapport QAQC générés
+└── R/
+      ├── config.R            ← Mapping variables, ISIC Rev 4, seuils QAQC
+      ├── 01_import.R         ← Import, nettoyage, détection outliers
+      ├── 02_individus.R      ← Table individus consolidée
+      ├── 03_menages.R        ← Table ménages consolidée
+      ├── 04_qaqc.R           ← Contrôle qualité + estimations primaires
+      ├── 05_export.R         ← Export CSV / Excel / HTML
+      └── qaqc_report.Rmd     ← Template rapport QAQC HTML
+
 ```
 
 ---
