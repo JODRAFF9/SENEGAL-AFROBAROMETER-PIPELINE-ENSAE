@@ -25,7 +25,6 @@ L'objectif est d'extraire, nettoyer et consolider les données brutes en **deux 
 ```
 SEN-AFROBAROMETER-PIPELINE-ENSAE/
 │
-├
 ├── main.R                  ← Point d'entrée unique du pipeline
 ├── input/                  ← Déposer la base brute ici (base.dta)
 ├── output/                 ← Tables consolidées et rapport QAQC générés
