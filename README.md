@@ -16,7 +16,7 @@
 
 Ce projet s'inscrit dans le cadre de la formation d'ingénieurs statisticiens économistes à l'**ENSAE Dakar**. Il consiste à concevoir un **pipeline complet, reproductible et scalable** de traitement des données Afrobarometer Sénégal (Round 9, 2022).
 
-L'objectif est d'extraire, nettoyer et consolider les données brutes en **deux tables structurées** — individus et ménages — accompagnées d'un **rapport QAQC automatique en HTML**.
+L'objectif est d'extraire, nettoyer et consolider les données brutes en **deux tables structurées** - individus et ménages - accompagnées d'un **rapport QAQC automatique en HTML**.
 
 ---
 
