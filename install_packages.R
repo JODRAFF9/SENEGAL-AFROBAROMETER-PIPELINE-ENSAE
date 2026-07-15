@@ -70,7 +70,9 @@ groupes <- list(
     "tibble",     # Tableaux modernes
     "here",       # Chemins relatifs robustes
     "readxl",     # Lecture du fichier de mapping Excel
-    "tools"       # Utilitaires de base R
+    "tools",       # Utilitaires de base R
+    "DT"
+    
   ),
 
   "Rapport QAQC HTML" = c(
