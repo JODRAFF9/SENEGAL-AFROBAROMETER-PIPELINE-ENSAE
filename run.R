@@ -36,6 +36,7 @@ if (length(packages_manquants) > 0) {
 library(here)
 
 # -- Chargement des modules ---------------------------------------------------
+source(here("install_packages.R"))
 source(here("R", "config.R"))
 source(here("R", "utils.R"))
 source(here("R", "01_import.R"))
